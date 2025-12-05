@@ -7,7 +7,7 @@ Un progetto dimostrativo realizzato interamente con **Javascript** per simulare 
 ## Anteprima
 
 <p float="left">
-    <img src="https://github.com/Salvo170586SP/App_pianoforte/blob/master/public/images/screenshot-1.png?raw=true" alt="Alt Text" style="width:250px;">
+    <img src="https://github.com/Salvo170586SP/App_pianoforte/blob/master/images/screenshot-1.png?raw=true" alt="Alt Text" style="width:250px;">
 </p>
 
 ## 💡 Panoramica del Progetto
