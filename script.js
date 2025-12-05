@@ -1,8 +1,4 @@
-console.log('js ok');
-
-//prendo gli elementi tasti
 const keyElements = document.querySelectorAll('.key');
-
 
 const notes = {
     do: '01-do.mp3',
@@ -19,7 +15,6 @@ const notes = {
     si: '12-si.mp3'
 }
 
-
 function playSound(key){
     const audio = new Audio();
     const note = notes[key];
@@ -28,8 +23,11 @@ function playSound(key){
 }
 
 keyElements.forEach(function(keyElement){
-    keyElement.addEventListener('touchend', function(){
+    const handler = function(){
         const key = keyElement.id;
         playSound(key);
-    })
-})
+    };
+
+    keyElement.addEventListener('touchend', handler);
+    keyElement.addEventListener('click', handler);
+});
